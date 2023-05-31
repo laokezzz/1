@@ -1,0 +1,23 @@
+ /*编写页面样式*/
+nav {
+	/*设置弹性布局*/
+	display: flex;    /*display: （15）;*/
+	/*两端对齐*/
+	justify-content: space-between;    /*justify-content: （16）;*/
+	/*垂直方向上居中对齐弹性盒的各项元素*/
+	align-items:center;    /*（17）:center;*/
+}
+.btn button {
+	/*设置字体为0.875倍的根元素字体大小*/
+	font-size: 0.875rem;    /*font-size: （18）;*/
+	width: 3.75em;
+	height: 2.75em;
+	border: 0;
+	/*圆角边框*/
+	border-radius: 3px;    /*（19）: 3px;  */  
+	/*在100ms内改变width属性*/
+	transition: width 100ms;    /*transition: （20）;*/
+}
+.btn button:active {
+	width: 4.5rem;/*当点击button宽度变为4.5rem */
+}
